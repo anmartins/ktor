@@ -29,17 +29,9 @@ fun Application.module(testing: Boolean = false) {
     // defines how error logging should be implemented
     errorHandling()
 
-
+    //app routing
     routing {
         typeRoutes()
         locationRoutes()
     }
 }
-
-
-
-class AuthenticationException : RuntimeException()
-class AuthorizationException : RuntimeException()
-
-data class JsonSampleClass(val hello: String)
-

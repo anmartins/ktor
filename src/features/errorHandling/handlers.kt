@@ -1,7 +1,7 @@
 package am.integrations.errorHandling
 
-import am.integrations.AuthenticationException
-import am.integrations.AuthorizationException
+import am.integrations.features.errorHandling.AuthenticationException
+import am.integrations.features.errorHandling.AuthorizationException
 import io.ktor.application.Application
 import io.ktor.application.call
 import io.ktor.application.install

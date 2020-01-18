@@ -22,6 +22,7 @@ fun Route.typeRoutes() {
     get<Type.Edit> {
         call.respondText("Inside $it")
     }
+
     get<Type.List> {
         call.respondText("Inside $it")
     }
