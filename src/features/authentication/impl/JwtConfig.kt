@@ -1,4 +1,4 @@
-package am.integrations.features.authentication
+package am.integrations.features.authentication.impl
 
 import com.auth0.jwt.JWT
 import com.auth0.jwt.JWTVerifier
